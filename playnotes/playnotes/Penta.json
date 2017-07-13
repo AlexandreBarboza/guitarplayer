@@ -1,0 +1,2315 @@
+﻿{
+  "penta": [
+
+    {
+      "tonica": "A",
+      "desenho": 1,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 5,
+          "pos_2": 8
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 1,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 5,
+          "pos_2": 8
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 1,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 5,
+          "pos_2": 7
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 1,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 5,
+          "pos_2": 7
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 1,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 5,
+          "pos_2": 7
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 1,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 5,
+          "pos_2": 8
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 2,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 8,
+          "pos_2": 10
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 2,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 8,
+          "pos_2": 10
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 2,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 7,
+          "pos_2": 9
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 2,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 7,
+          "pos_2": 10
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 2,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 7,
+          "pos_2": 10
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 2,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 8,
+          "pos_2": 10
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 3,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 12
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 3,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 13
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 3,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 9,
+          "pos_2": 12
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 3,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 12
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 3,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 12
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 3,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 12
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 4,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 12,
+          "pos_2": 15
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 4,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 13,
+          "pos_2": 15
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 4,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 12,
+          "pos_2": 15
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 4,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 12,
+          "pos_2": 14
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 4,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 12,
+          "pos_2": 15
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 4,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 12,
+          "pos_2": 15
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 5,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 15,
+          "pos_2": 17
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 5,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 15,
+          "pos_2": 17
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 5,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 15,
+          "pos_2": 17
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 5,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 14,
+          "pos_2": 17
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 5,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 15,
+          "pos_2": 17
+        }
+      ]
+    },
+    {
+      "tonica": "A",
+      "desenho": 5,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 15,
+          "pos_2": 17
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 1,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 3,
+          "pos_2": 6
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 1,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 3,
+          "pos_2": 6
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 1,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 3,
+          "pos_2": 5
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 1,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 3,
+          "pos_2": 5
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 1,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 3,
+          "pos_2": 5
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 1,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 3,
+          "pos_2": 6
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 2,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 6,
+          "pos_2": 8
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 2,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 6,
+          "pos_2": 8
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 2,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 5,
+          "pos_2": 7
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 2,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 5,
+          "pos_2": 8
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 2,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 5,
+          "pos_2": 8
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 2,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 6,
+          "pos_2": 8
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 3,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 8,
+          "pos_2": 10
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 3,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 8,
+          "pos_2": 11
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 3,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 7,
+          "pos_2": 10
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 3,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 8,
+          "pos_2": 10
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 3,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 8,
+          "pos_2": 10
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 3,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 8,
+          "pos_2": 10
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 4,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 13
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 4,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 11,
+          "pos_2": 13
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 4,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 13
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 4,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 12
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 4,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 13
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 4,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 13
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 5,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 13,
+          "pos_2": 15
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 5,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 13,
+          "pos_2": 15
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 5,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 13,
+          "pos_2": 15
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 5,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 12,
+          "pos_2": 15
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 5,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 13,
+          "pos_2": 15
+        }
+      ]
+    },
+    {
+      "tonica": "G",
+      "desenho": 5,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 13,
+          "pos_2": 15
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 1,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 1,
+          "pos_2": 4
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 1,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 1,
+          "pos_2": 4
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 1,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 1,
+          "pos_2": 3
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 1,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 1,
+          "pos_2": 3
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 1,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 1,
+          "pos_2": 3
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 1,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 1,
+          "pos_2": 4
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 2,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 4,
+          "pos_2": 6
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 2,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 4,
+          "pos_2": 6
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 2,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 3,
+          "pos_2": 5
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 2,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 3,
+          "pos_2": 6
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 2,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 3,
+          "pos_2": 6
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 2,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 4,
+          "pos_2": 6
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 3,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 6,
+          "pos_2": 8
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 3,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 6,
+          "pos_2": 9
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 3,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 5,
+          "pos_2": 8
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 3,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 6,
+          "pos_2": 8
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 3,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 6,
+          "pos_2": 8
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 3,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 6,
+          "pos_2": 8
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 4,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 8,
+          "pos_2": 11
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 4,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 9,
+          "pos_2": 11
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 4,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 8,
+          "pos_2": 11
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 4,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 8,
+          "pos_2": 10
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 4,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 8,
+          "pos_2": 11
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 4,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 8,
+          "pos_2": 11
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 5,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 11,
+          "pos_2": 13
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 5,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 11,
+          "pos_2": 13
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 5,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 11,
+          "pos_2": 13
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 5,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 13
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 5,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 11,
+          "pos_2": 13
+        }
+      ]
+    },
+    {
+      "tonica": "F",
+      "desenho": 5,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 11,
+          "pos_2": 13
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 1,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 0,
+          "pos_2": 3
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 1,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 0,
+          "pos_2": 3
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 1,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 0,
+          "pos_2": 2
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 1,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 0,
+          "pos_2": 2
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 1,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 0,
+          "pos_2": 2
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 1,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 0,
+          "pos_2": 3
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 2,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 3,
+          "pos_2": 5
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 2,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 3,
+          "pos_2": 5
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 2,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 2,
+          "pos_2": 4
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 2,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 2,
+          "pos_2": 5
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 2,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 2,
+          "pos_2": 5
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 2,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 3,
+          "pos_2": 5
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 3,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 5,
+          "pos_2": 7
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 3,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 5,
+          "pos_2": 8
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 3,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 4,
+          "pos_2": 7
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 3,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 5,
+          "pos_2": 7
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 3,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 5,
+          "pos_2": 7
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 3,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 5,
+          "pos_2": 7
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 4,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 7,
+          "pos_2": 10
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 4,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 8,
+          "pos_2": 10
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 4,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 7,
+          "pos_2": 10
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 4,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 7,
+          "pos_2": 9
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 4,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 7,
+          "pos_2": 10
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 4,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 7,
+          "pos_2": 10
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 5,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 12
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 5,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 12
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 5,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 12
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 5,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 9,
+          "pos_2": 12
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 5,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 12
+        }
+      ]
+    },
+    {
+      "tonica": "E",
+      "desenho": 5,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 12
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 1,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 7,
+          "pos_2": 10
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 1,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 7,
+          "pos_2": 10
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 1,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 7,
+          "pos_2": 9
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 1,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 7,
+          "pos_2": 9
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 1,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 7,
+          "pos_2": 9
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 1,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 7,
+          "pos_2": 10
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 2,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 12
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 2,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 12
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 2,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 9,
+          "pos_2": 11
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 2,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 9,
+          "pos_2": 12
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 2,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 9,
+          "pos_2": 12
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 2,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 12
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 3,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 12,
+          "pos_2": 14
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 3,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 12,
+          "pos_2": 15
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 3,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 11,
+          "pos_2": 14
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 3,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 12,
+          "pos_2": 14
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 3,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 12,
+          "pos_2": 14
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 3,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 12,
+          "pos_2": 14
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 4,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 14,
+          "pos_2": 17
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 4,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 15,
+          "pos_2": 17
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 4,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 14,
+          "pos_2": 17
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 4,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 14,
+          "pos_2": 16
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 4,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 14,
+          "pos_2": 17
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 4,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 14,
+          "pos_2": 17
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 5,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 17,
+          "pos_2": 19
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 5,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 17,
+          "pos_2": 19
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 5,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 17,
+          "pos_2": 19
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 5,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 16,
+          "pos_2": 19
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 5,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 17,
+          "pos_2": 19
+        }
+      ]
+    },
+    {
+      "tonica": "B",
+      "desenho": 5,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 17,
+          "pos_2": 19
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 1,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 8,
+          "pos_2": 11
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 1,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 8,
+          "pos_2": 11
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 1,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 8,
+          "pos_2": 10
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 1,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 8,
+          "pos_2": 10
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 1,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 8,
+          "pos_2": 10
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 1,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 8,
+          "pos_2": 11
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 2,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 11,
+          "pos_2": 13
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 2,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 11,
+          "pos_2": 13
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 2,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 12
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 2,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 13
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 2,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 13
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 2,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 11,
+          "pos_2": 13
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 3,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 13,
+          "pos_2": 15
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 3,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 13,
+          "pos_2": 16
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 3,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 12,
+          "pos_2": 15
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 3,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 13,
+          "pos_2": 15
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 3,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 13,
+          "pos_2": 15
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 3,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 13,
+          "pos_2": 15
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 4,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 15,
+          "pos_2": 18
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 4,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 16,
+          "pos_2": 18
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 4,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 15,
+          "pos_2": 18
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 4,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 15,
+          "pos_2": 17
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 4,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 15,
+          "pos_2": 18
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 4,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 15,
+          "pos_2": 18
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 5,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 18,
+          "pos_2": 20
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 5,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 18,
+          "pos_2": 20
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 5,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 18,
+          "pos_2": 20
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 5,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 17,
+          "pos_2": 20
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 5,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 18,
+          "pos_2": 20
+        }
+      ]
+    },
+    {
+      "tonica": "C",
+      "desenho": 5,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 18,
+          "pos_2": 20
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 1,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 13
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 1,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 13
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 1,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 12
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 1,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 12
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 1,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 12
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 1,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 10,
+          "pos_2": 13
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 2,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 13,
+          "pos_2": 15
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 2,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 13,
+          "pos_2": 15
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 2,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 12,
+          "pos_2": 14
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 2,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 12,
+          "pos_2": 15
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 2,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 12,
+          "pos_2": 15
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 2,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 13,
+          "pos_2": 15
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 3,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 15,
+          "pos_2": 17
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 3,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 15,
+          "pos_2": 18
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 3,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 14,
+          "pos_2": 17
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 3,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 15,
+          "pos_2": 17
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 3,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 15,
+          "pos_2": 17
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 3,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 15,
+          "pos_2": 17
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 4,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 17,
+          "pos_2": 20
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 4,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 18,
+          "pos_2": 20
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 4,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 17,
+          "pos_2": 20
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 4,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 17,
+          "pos_2": 19
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 4,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 17,
+          "pos_2": 20
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 4,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 17,
+          "pos_2": 20
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 5,
+      "xcorda": "e",
+      "posicoes": [
+        {
+          "pos_1": 8,
+          "pos_2": 10
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 5,
+      "xcorda": "B",
+      "posicoes": [
+        {
+          "pos_1": 8,
+          "pos_2": 10
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 5,
+      "xcorda": "G",
+      "posicoes": [
+        {
+          "pos_1": 8,
+          "pos_2": 10
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 5,
+      "xcorda": "D",
+      "posicoes": [
+        {
+          "pos_1": 7,
+          "pos_2": 9
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 5,
+      "xcorda": "A",
+      "posicoes": [
+        {
+          "pos_1": 8,
+          "pos_2": 10
+        }
+      ]
+    },
+    {
+      "tonica": "D",
+      "desenho": 5,
+      "xcorda": "E",
+      "posicoes": [
+        {
+          "pos_1": 8,
+          "pos_2": 10
+        }
+      ]
+    }
+  ]
+}

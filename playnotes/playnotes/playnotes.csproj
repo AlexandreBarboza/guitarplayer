@@ -72,6 +72,7 @@
     <None Include="Braco.json" />
     <None Include="nomes_acordes.json" />
     <None Include="packages.config" />
+    <None Include="Penta.json" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>

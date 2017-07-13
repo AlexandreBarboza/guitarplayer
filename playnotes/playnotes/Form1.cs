@@ -15,6 +15,7 @@ namespace playnotes
     public partial class Form1 : Form
     {
         public acordesCLS acrds = new acordesCLS();
+        public pentasCLS pntas = new pentasCLS();
         public Form1()
         {
             InitializeComponent();
@@ -45,16 +46,19 @@ namespace playnotes
                 using (StreamReader r = new StreamReader(System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location).Replace("bin\\Debug","") + "Braco.json"))
                 {
                     string json = r.ReadToEnd();
-                    //var items = JsonConvert.DeserializeObject(json);
                     items = JsonConvert.DeserializeObject<BracoCLS>(json);
                 }
 
-                
                 using (StreamReader r = new StreamReader(System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location).Replace("bin\\Debug", "") + "Acordes.json"))
                 {
                     string json = r.ReadToEnd();
-                    //var items = JsonConvert.DeserializeObject(json);
                     acrds = JsonConvert.DeserializeObject<acordesCLS>(json);
+                }
+
+                using (StreamReader r = new StreamReader(System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location).Replace("bin\\Debug", "") + "Penta.json"))
+                {
+                    string json = r.ReadToEnd();
+                    pntas = JsonConvert.DeserializeObject<pentasCLS>(json);
                 }
 
                 foreach (Corda CRD in items.cordas)
@@ -115,10 +119,8 @@ namespace playnotes
             }
             catch (Exception ex)
             {
-
                 MessageBox.Show(ex.Message);
             }
-
         }
 
         public class CordaBracos
@@ -156,6 +158,25 @@ namespace playnotes
             public List<Corda> cordas { get; set; }
         }
 
+        public class Posico
+        {
+            public int pos_1 { get; set; }
+            public int pos_2 { get; set; }
+        }
+
+        public class Penta
+        {
+            public string tonica { get; set; }
+            public int desenho { get; set; }
+            public string xcorda { get; set; }
+            public IList<Posico> posicoes { get; set; }
+        }
+
+        public class pentasCLS
+        {
+            public IList<Penta> penta { get; set; }
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             try
@@ -184,6 +205,52 @@ namespace playnotes
             catch (Exception ex)
             {
                 MessageBox.Show(ex.Message);
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            LimparTudo();
+            string Posicao = null;
+            foreach (System.Windows.Forms.Control controle in PoisicaoPenta.Controls)
+            {
+                if (controle is RadioButton)
+                {
+                    RadioButton rdoPosicao = controle as RadioButton;
+                    if (rdoPosicao.Checked)
+                    {
+                        Posicao = rdoPosicao.Text.Split(' ')[1];
+                    }
+
+                }
+            }
+            if (Posicao == null)
+            {
+                MessageBox.Show("Selecione uma posição", "Penta");
+                return;
+            }
+            string Tonica = cboNota.Text.ToUpper();
+            decimal dPosicao = Convert.ToDecimal(Posicao);
+
+            foreach (Penta penta in pntas.penta.Where(R => R.desenho == dPosicao && R.tonica== Tonica))
+            {
+                foreach (System.Windows.Forms.Control Notas in BRACO.Controls)
+                {
+                    if (Notas is Label)
+                    {
+                        Label btnNota = Notas as Label;
+                        string nm_nota1 = "lbl_" + penta.xcorda + "_" + penta.posicoes[0].pos_1.ToString();
+                        string nm_nota2 = "lbl_" + penta.xcorda + "_" + penta.posicoes[0].pos_2.ToString();
+                        if (btnNota.Name.Contains(nm_nota1))
+                        {
+                            btnNota.Visible = true;
+                        }
+                        if (btnNota.Name.Contains(nm_nota2))
+                        {
+                            btnNota.Visible = true;
+                        }
+                    }
+                }
             }
         }
     }

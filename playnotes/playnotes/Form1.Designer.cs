@@ -56,17 +56,17 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
             this.cboAcordes = new System.Windows.Forms.ComboBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.PoisicaoPenta = new System.Windows.Forms.GroupBox();
             this.penta_1 = new System.Windows.Forms.RadioButton();
             this.penta_2 = new System.Windows.Forms.RadioButton();
             this.penta_4 = new System.Windows.Forms.RadioButton();
             this.penta_3 = new System.Windows.Forms.RadioButton();
             this.penta_5 = new System.Windows.Forms.RadioButton();
             this.button2 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.cboNota = new System.Windows.Forms.ComboBox();
             this.BRACO.SuspendLayout();
             this.groupBox1.SuspendLayout();
-            this.groupBox2.SuspendLayout();
+            this.PoisicaoPenta.SuspendLayout();
             this.SuspendLayout();
             // 
             // BRACO
@@ -432,21 +432,21 @@
             this.cboAcordes.Size = new System.Drawing.Size(121, 21);
             this.cboAcordes.TabIndex = 0;
             // 
-            // groupBox2
+            // PoisicaoPenta
             // 
-            this.groupBox2.Controls.Add(this.comboBox1);
-            this.groupBox2.Controls.Add(this.button2);
-            this.groupBox2.Controls.Add(this.penta_5);
-            this.groupBox2.Controls.Add(this.penta_4);
-            this.groupBox2.Controls.Add(this.penta_3);
-            this.groupBox2.Controls.Add(this.penta_2);
-            this.groupBox2.Controls.Add(this.penta_1);
-            this.groupBox2.Location = new System.Drawing.Point(244, 251);
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(564, 52);
-            this.groupBox2.TabIndex = 2;
-            this.groupBox2.TabStop = false;
-            this.groupBox2.Text = "Pentatônoca Menor";
+            this.PoisicaoPenta.Controls.Add(this.cboNota);
+            this.PoisicaoPenta.Controls.Add(this.button2);
+            this.PoisicaoPenta.Controls.Add(this.penta_5);
+            this.PoisicaoPenta.Controls.Add(this.penta_4);
+            this.PoisicaoPenta.Controls.Add(this.penta_3);
+            this.PoisicaoPenta.Controls.Add(this.penta_2);
+            this.PoisicaoPenta.Controls.Add(this.penta_1);
+            this.PoisicaoPenta.Location = new System.Drawing.Point(244, 251);
+            this.PoisicaoPenta.Name = "PoisicaoPenta";
+            this.PoisicaoPenta.Size = new System.Drawing.Size(564, 52);
+            this.PoisicaoPenta.TabIndex = 2;
+            this.PoisicaoPenta.TabStop = false;
+            this.PoisicaoPenta.Text = "Pentatônoca Menor";
             // 
             // penta_1
             // 
@@ -511,16 +511,33 @@
             this.button2.TabIndex = 5;
             this.button2.Text = "Ver";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // comboBox1
+            // cboNota
             // 
-            this.comboBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
-            this.comboBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(402, 18);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(58, 21);
-            this.comboBox1.TabIndex = 6;
+            this.cboNota.AutoCompleteCustomSource.AddRange(new string[] {
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "A",
+            "B"});
+            this.cboNota.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.cboNota.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cboNota.FormattingEnabled = true;
+            this.cboNota.Items.AddRange(new object[] {
+            "C",
+            "D",
+            "E",
+            "F",
+            "G",
+            "A",
+            "B"});
+            this.cboNota.Location = new System.Drawing.Point(402, 18);
+            this.cboNota.Name = "cboNota";
+            this.cboNota.Size = new System.Drawing.Size(58, 21);
+            this.cboNota.TabIndex = 6;
             // 
             // Form1
             // 
@@ -528,7 +545,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(982, 376);
-            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.PoisicaoPenta);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.BRACO);
             this.Name = "Form1";
@@ -537,8 +554,8 @@
             this.BRACO.ResumeLayout(false);
             this.BRACO.PerformLayout();
             this.groupBox1.ResumeLayout(false);
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
+            this.PoisicaoPenta.ResumeLayout(false);
+            this.PoisicaoPenta.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -574,8 +591,8 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox cboAcordes;
-        private System.Windows.Forms.GroupBox groupBox2;
-        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.GroupBox PoisicaoPenta;
+        private System.Windows.Forms.ComboBox cboNota;
         private System.Windows.Forms.Button button2;
         private System.Windows.Forms.RadioButton penta_5;
         private System.Windows.Forms.RadioButton penta_4;
