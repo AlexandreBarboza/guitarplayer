@@ -86,12 +86,12 @@ namespace playnotes
                                     rw = 1;
                                     break;
                                 }
-                            case "D":
+                            case "G":
                                 {
                                     rw = 2;
                                     break;
                                 }
-                            case "G":
+                            case "D":
                                 {
                                     rw = 3;
                                     break;
