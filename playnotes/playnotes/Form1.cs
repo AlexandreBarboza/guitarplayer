@@ -34,7 +34,6 @@ namespace playnotes
                     {
                         btnNota.Visible = false;
                     }
-
                 }
             }
         }
@@ -112,9 +111,7 @@ namespace playnotes
                 foreach (Acorde acr in acrds.acordes)
                 {
                     cboAcordes.Items.Add(acr.acorde);
-                }
-                
-
+                }                
             }
             catch (Exception ex)
             {
@@ -124,7 +121,7 @@ namespace playnotes
 
         }
 
-        public class CordaBracosBraco
+        public class CordaBracos
         {
             public string corda_braco { get; set; }
             public int posicao { get; set; }
@@ -133,7 +130,7 @@ namespace playnotes
         public class Acorde
         {
             public string acorde { get; set; }
-            public IList<CordaBracosBraco> corda_bracos_braco { get; set; }
+            public IList<CordaBracos> corda_braco { get; set; }
         }
 
         public class acordesCLS
@@ -161,11 +158,33 @@ namespace playnotes
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (cboAcordes.Text!="")
-            {                
-                LimparTudo();
+            try
+            {
+                if (cboAcordes.Text != "")
+                {
+                    LimparTudo();
+                    Acorde CRD = acrds.acordes.FirstOrDefault(r => r.acorde == cboAcordes.Text);
+                    foreach (CordaBracos CrdBra in CRD.corda_braco)
+                    {
+                        string nm_nota = "lbl_" + CrdBra.corda_braco + "_" + CrdBra.posicao + "_";
+                        foreach (System.Windows.Forms.Control Notas in BRACO.Controls)
+                        {
+                            if (Notas is Label)
+                            {
+                                Label btnNota = Notas as Label;
+                                if (btnNota.Name.Contains(nm_nota))
+                                {
+                                    btnNota.Visible = true;
+                                }
+                            }
+                        }
+                    }
+                }
             }
-            
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
         }
     }
 }
