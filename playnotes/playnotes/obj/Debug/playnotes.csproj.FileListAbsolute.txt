@@ -9,3 +9,14 @@ c:\users\abarboza\documents\visual studio 2017\Projects\playnotes\playnotes\obj\
 c:\users\abarboza\documents\visual studio 2017\Projects\playnotes\playnotes\obj\Debug\playnotes.pdb
 c:\users\abarboza\documents\visual studio 2017\Projects\playnotes\playnotes\bin\Debug\Newtonsoft.Json.dll
 c:\users\abarboza\documents\visual studio 2017\Projects\playnotes\playnotes\bin\Debug\Newtonsoft.Json.xml
+C:\prj\guitarplay\playnotes\playnotes\bin\Debug\playnotes.exe.config
+C:\prj\guitarplay\playnotes\playnotes\bin\Debug\playnotes.exe
+C:\prj\guitarplay\playnotes\playnotes\bin\Debug\playnotes.pdb
+C:\prj\guitarplay\playnotes\playnotes\bin\Debug\Newtonsoft.Json.dll
+C:\prj\guitarplay\playnotes\playnotes\bin\Debug\Newtonsoft.Json.xml
+C:\prj\guitarplay\playnotes\playnotes\obj\Debug\playnotes.csprojResolveAssemblyReference.cache
+C:\prj\guitarplay\playnotes\playnotes\obj\Debug\playnotes.Form1.resources
+C:\prj\guitarplay\playnotes\playnotes\obj\Debug\playnotes.Properties.Resources.resources
+C:\prj\guitarplay\playnotes\playnotes\obj\Debug\playnotes.csproj.GenerateResource.Cache
+C:\prj\guitarplay\playnotes\playnotes\obj\Debug\playnotes.exe
+C:\prj\guitarplay\playnotes\playnotes\obj\Debug\playnotes.pdb

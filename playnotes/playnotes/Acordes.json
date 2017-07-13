@@ -182,6 +182,189 @@
           "posicao": 2
         }
       ]
-    }
+    },
+    {
+      "acorde": "C Menor",
+      "corda_bracos_braco": [
+        {
+          "corda_braco": "e",
+          "posicao": 3
+        },
+        {
+          "corda_braco": "B",
+          "posicao": 4
+        },
+        {
+          "corda_braco": "G",
+          "posicao": 5
+        },
+        {
+          "corda_braco": "D",
+          "posicao": 5
+        },
+        {
+          "corda_braco": "A",
+          "posicao": 3
+        }
+      ]
+    },
+    {
+      "acorde": "D Menor",
+      "corda_bracos_braco": [
+        {
+          "corda_braco": "e",
+          "posicao": 2
+        },
+        {
+          "corda_braco": "B",
+          "posicao": 1
+        },
+        {
+          "corda_braco": "G",
+          "posicao": 2
+        },
+        {
+          "corda_braco": "D",
+          "posicao": 0
+        }
+      ]
+    },
+    {
+      "acorde": "E Menor",
+      "corda_bracos_braco": [
+        {
+          "corda_braco": "e",
+          "posicao": 0
+        },
+        {
+          "corda_braco": "B",
+          "posicao": 0
+        },
+        {
+          "corda_braco": "G",
+          "posicao": 0
+        },
+        {
+          "corda_braco": "D",
+          "posicao": 2
+        },
+        {
+          "corda_braco": "A",
+          "posicao": 2
+        },
+        {
+          "corda_braco": "E",
+          "posicao": 0
+        }
+      ]
+    },
+    {
+      "acorde": "F Menor",
+      "corda_bracos_braco": [
+        {
+          "corda_braco": "e",
+          "posicao": 1
+        },
+        {
+          "corda_braco": "B",
+          "posicao": 1
+        },
+        {
+          "corda_braco": "G",
+          "posicao": 1
+        },
+        {
+          "corda_braco": "D",
+          "posicao": 3
+        },
+        {
+          "corda_braco": "A",
+          "posicao": 3
+        },
+        {
+          "corda_braco": "E",
+          "posicao": 1
+        }
+      ]
+    },
+    {
+      "acorde": "G Menor",
+      "corda_bracos_braco": [
+        {
+          "corda_braco": "e",
+          "posicao": 3
+        },
+        {
+          "corda_braco": "B",
+          "posicao": 3
+        },
+        {
+          "corda_braco": "G",
+          "posicao": 3
+        },
+        {
+          "corda_braco": "D",
+          "posicao": 5
+        },
+        {
+          "corda_braco": "A",
+          "posicao": 5
+        },
+        {
+          "corda_braco": "E",
+          "posicao": 3
+        }
+      ]
+    },
+    {
+      "acorde": "A Menor",
+      "corda_bracos_braco": [
+        {
+          "corda_braco": "e",
+          "posicao": 0
+        },
+        {
+          "corda_braco": "B",
+          "posicao": 1
+        },
+        {
+          "corda_braco": "G",
+          "posicao": 2
+        },
+        {
+          "corda_braco": "D",
+          "posicao": 2
+        },
+        {
+          "corda_braco": "A",
+          "posicao": 0
+        }
+      ]
+    },
+    {
+      "acorde": "B Menor",
+      "corda_bracos_braco": [
+        {
+          "corda_braco": "e",
+          "posicao": 2
+        },
+        {
+          "corda_braco": "B",
+          "posicao": 3
+        },
+        {
+          "corda_braco": "G",
+          "posicao": 4
+        },
+        {
+          "corda_braco": "D",
+          "posicao": 4
+        },
+        {
+          "corda_braco": "A",
+          "posicao": 2
+        }
+      ]
+    }    
   ]
 }
