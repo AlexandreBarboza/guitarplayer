@@ -56,8 +56,17 @@
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.button1 = new System.Windows.Forms.Button();
             this.cboAcordes = new System.Windows.Forms.ComboBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.penta_1 = new System.Windows.Forms.RadioButton();
+            this.penta_2 = new System.Windows.Forms.RadioButton();
+            this.penta_4 = new System.Windows.Forms.RadioButton();
+            this.penta_3 = new System.Windows.Forms.RadioButton();
+            this.penta_5 = new System.Windows.Forms.RadioButton();
+            this.button2 = new System.Windows.Forms.Button();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.BRACO.SuspendLayout();
             this.groupBox1.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // BRACO
@@ -86,10 +95,10 @@
             this.BRACO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 38F));
             this.BRACO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 38F));
             this.BRACO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 38F));
-            this.BRACO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.BRACO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.BRACO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.BRACO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 20F));
+            this.BRACO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 38F));
+            this.BRACO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 38F));
+            this.BRACO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 38F));
+            this.BRACO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 38F));
             this.BRACO.Controls.Add(this.label7, 0, 6);
             this.BRACO.Controls.Add(this.label8, 1, 6);
             this.BRACO.Controls.Add(this.label9, 2, 6);
@@ -124,7 +133,7 @@
             this.BRACO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.BRACO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.BRACO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
-            this.BRACO.Size = new System.Drawing.Size(865, 218);
+            this.BRACO.Size = new System.Drawing.Size(937, 218);
             this.BRACO.TabIndex = 0;
             this.BRACO.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
@@ -355,7 +364,7 @@
             this.label27.Location = new System.Drawing.Point(786, 192);
             this.label27.Margin = new System.Windows.Forms.Padding(5, 5, 0, 0);
             this.label27.Name = "label27";
-            this.label27.Size = new System.Drawing.Size(15, 25);
+            this.label27.Size = new System.Drawing.Size(27, 20);
             this.label27.TabIndex = 26;
             this.label27.Text = "20";
             // 
@@ -363,10 +372,10 @@
             // 
             this.label28.AutoSize = true;
             this.label28.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label28.Location = new System.Drawing.Point(807, 192);
+            this.label28.Location = new System.Drawing.Point(825, 192);
             this.label28.Margin = new System.Windows.Forms.Padding(5, 5, 0, 0);
             this.label28.Name = "label28";
-            this.label28.Size = new System.Drawing.Size(15, 25);
+            this.label28.Size = new System.Drawing.Size(27, 20);
             this.label28.TabIndex = 27;
             this.label28.Text = "21";
             // 
@@ -374,10 +383,10 @@
             // 
             this.label29.AutoSize = true;
             this.label29.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label29.Location = new System.Drawing.Point(828, 192);
+            this.label29.Location = new System.Drawing.Point(864, 192);
             this.label29.Margin = new System.Windows.Forms.Padding(5, 5, 0, 0);
             this.label29.Name = "label29";
-            this.label29.Size = new System.Drawing.Size(15, 25);
+            this.label29.Size = new System.Drawing.Size(27, 20);
             this.label29.TabIndex = 28;
             this.label29.Text = "22";
             // 
@@ -385,10 +394,10 @@
             // 
             this.label30.AutoSize = true;
             this.label30.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label30.Location = new System.Drawing.Point(849, 192);
+            this.label30.Location = new System.Drawing.Point(903, 192);
             this.label30.Margin = new System.Windows.Forms.Padding(5, 5, 0, 0);
             this.label30.Name = "label30";
-            this.label30.Size = new System.Drawing.Size(15, 25);
+            this.label30.Size = new System.Drawing.Size(27, 20);
             this.label30.TabIndex = 29;
             this.label30.Text = "23";
             // 
@@ -423,20 +432,113 @@
             this.cboAcordes.Size = new System.Drawing.Size(121, 21);
             this.cboAcordes.TabIndex = 0;
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.comboBox1);
+            this.groupBox2.Controls.Add(this.button2);
+            this.groupBox2.Controls.Add(this.penta_5);
+            this.groupBox2.Controls.Add(this.penta_4);
+            this.groupBox2.Controls.Add(this.penta_3);
+            this.groupBox2.Controls.Add(this.penta_2);
+            this.groupBox2.Controls.Add(this.penta_1);
+            this.groupBox2.Location = new System.Drawing.Point(244, 251);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(564, 52);
+            this.groupBox2.TabIndex = 2;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Pentatônoca Menor";
+            // 
+            // penta_1
+            // 
+            this.penta_1.AutoSize = true;
+            this.penta_1.Location = new System.Drawing.Point(7, 20);
+            this.penta_1.Name = "penta_1";
+            this.penta_1.Size = new System.Drawing.Size(72, 17);
+            this.penta_1.TabIndex = 0;
+            this.penta_1.TabStop = true;
+            this.penta_1.Text = "Posicao 1";
+            this.penta_1.UseVisualStyleBackColor = true;
+            // 
+            // penta_2
+            // 
+            this.penta_2.AutoSize = true;
+            this.penta_2.Location = new System.Drawing.Point(85, 20);
+            this.penta_2.Name = "penta_2";
+            this.penta_2.Size = new System.Drawing.Size(72, 17);
+            this.penta_2.TabIndex = 1;
+            this.penta_2.TabStop = true;
+            this.penta_2.Text = "Posicao 2";
+            this.penta_2.UseVisualStyleBackColor = true;
+            // 
+            // penta_4
+            // 
+            this.penta_4.AutoSize = true;
+            this.penta_4.Location = new System.Drawing.Point(241, 20);
+            this.penta_4.Name = "penta_4";
+            this.penta_4.Size = new System.Drawing.Size(72, 17);
+            this.penta_4.TabIndex = 3;
+            this.penta_4.TabStop = true;
+            this.penta_4.Text = "Posicao 4";
+            this.penta_4.UseVisualStyleBackColor = true;
+            // 
+            // penta_3
+            // 
+            this.penta_3.AutoSize = true;
+            this.penta_3.Location = new System.Drawing.Point(163, 20);
+            this.penta_3.Name = "penta_3";
+            this.penta_3.Size = new System.Drawing.Size(72, 17);
+            this.penta_3.TabIndex = 2;
+            this.penta_3.TabStop = true;
+            this.penta_3.Text = "Posicao 3";
+            this.penta_3.UseVisualStyleBackColor = true;
+            // 
+            // penta_5
+            // 
+            this.penta_5.AutoSize = true;
+            this.penta_5.Location = new System.Drawing.Point(319, 20);
+            this.penta_5.Name = "penta_5";
+            this.penta_5.Size = new System.Drawing.Size(72, 17);
+            this.penta_5.TabIndex = 4;
+            this.penta_5.TabStop = true;
+            this.penta_5.Text = "Posicao 5";
+            this.penta_5.UseVisualStyleBackColor = true;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(478, 16);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "Ver";
+            this.button2.UseVisualStyleBackColor = true;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.comboBox1.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(402, 18);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(58, 21);
+            this.comboBox1.TabIndex = 6;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(982, 376);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.BRACO);
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "Guitar Play and Teacher";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.BRACO.ResumeLayout(false);
             this.BRACO.PerformLayout();
             this.groupBox1.ResumeLayout(false);
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -472,6 +574,14 @@
         private System.Windows.Forms.GroupBox groupBox1;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.ComboBox cboAcordes;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.ComboBox comboBox1;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.RadioButton penta_5;
+        private System.Windows.Forms.RadioButton penta_4;
+        private System.Windows.Forms.RadioButton penta_3;
+        private System.Windows.Forms.RadioButton penta_2;
+        private System.Windows.Forms.RadioButton penta_1;
     }
 }
 
