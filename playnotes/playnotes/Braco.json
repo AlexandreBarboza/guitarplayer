@@ -1,0 +1,619 @@
+﻿{
+  "cordas": [
+    {
+      "corda": "e",
+      "cor": "DarkMagenta",
+      "notas": [
+        {
+          "posicao": 0,
+          "nota": "e"
+        },
+        {
+          "posicao": 1,
+          "nota": "F"
+        },
+        {
+          "posicao": 2,
+          "nota": "F#"
+        },
+        {
+          "posicao": 3,
+          "nota": "G"
+        },
+        {
+          "posicao": 4,
+          "nota": "G#"
+        },
+        {
+          "posicao": 5,
+          "nota": "A"
+        },
+        {
+          "posicao": 6,
+          "nota": "A#"
+        },
+        {
+          "posicao": 7,
+          "nota": "B"
+        },
+        {
+          "posicao": 8,
+          "nota": "C"
+        },
+        {
+          "posicao": 9,
+          "nota": "C#"
+        },
+        {
+          "posicao": 10,
+          "nota": "D"
+        },
+        {
+          "posicao": 11,
+          "nota": "D#"
+        },
+        {
+          "posicao": 12,
+          "nota": "E"
+        },
+        {
+          "posicao": 13,
+          "nota": "F"
+        },
+        {
+          "posicao": 14,
+          "nota": "F#"
+        },
+        {
+          "posicao": 15,
+          "nota": "G"
+        },
+        {
+          "posicao": 16,
+          "nota": "G#"
+        },
+        {
+          "posicao": 17,
+          "nota": "A"
+        },
+        {
+          "posicao": 18,
+          "nota": "A#"
+        },
+        {
+          "posicao": 19,
+          "nota": "B"
+        },
+        {
+          "posicao": 20,
+          "nota": "C"
+        },
+        {
+          "posicao": 21,
+          "nota": "C#"
+        },
+        {
+          "posicao": 22,
+          "nota": "D"
+        },
+        {
+          "posicao": 23,
+          "nota": "D#"
+        }
+      ]
+
+    },
+    {
+      "corda": "B",
+      "cor": "Green",
+      "notas": [
+        {
+          "posicao": 0,
+          "nota": "B"
+        },
+        {
+          "posicao": 1,
+          "nota": "C"
+        },
+        {
+          "posicao": 2,
+          "nota": "C#"
+        },
+        {
+          "posicao": 3,
+          "nota": "D"
+        },
+        {
+          "posicao": 4,
+          "nota": "D#"
+        },
+        {
+          "posicao": 5,
+          "nota": "E"
+        },
+        {
+          "posicao": 6,
+          "nota": "F"
+        },
+        {
+          "posicao": 7,
+          "nota": "F#"
+        },
+        {
+          "posicao": 8,
+          "nota": "G"
+        },
+        {
+          "posicao": 9,
+          "nota": "G#"
+        },
+        {
+          "posicao": 10,
+          "nota": "A"
+        },
+        {
+          "posicao": 11,
+          "nota": "A#"
+        },
+        {
+          "posicao": 12,
+          "nota": "B"
+        },
+        {
+          "posicao": 13,
+          "nota": "C"
+        },
+        {
+          "posicao": 14,
+          "nota": "C#"
+        },
+        {
+          "posicao": 15,
+          "nota": "D"
+        },
+        {
+          "posicao": 16,
+          "nota": "D#"
+        },
+        {
+          "posicao": 17,
+          "nota": "E"
+        },
+        {
+          "posicao": 18,
+          "nota": "F"
+        },
+        {
+          "posicao": 19,
+          "nota": "F#"
+        },
+        {
+          "posicao": 20,
+          "nota": "G"
+        },
+        {
+          "posicao": 21,
+          "nota": "G#"
+        },
+        {
+          "posicao": 22,
+          "nota": "A"
+        },
+        {
+          "posicao": 23,
+          "nota": "A#"
+        }
+      ]
+    },
+    {
+      "corda": "D",
+      "cor": "DodgerBlue",
+      "notas": [
+        {
+          "posicao": 0,
+          "nota": "D"
+        },
+        {
+          "posicao": 1,
+          "nota": "D#"
+        },
+        {
+          "posicao": 2,
+          "nota": "E"
+        },
+        {
+          "posicao": 3,
+          "nota": "F"
+        },
+        {
+          "posicao": 4,
+          "nota": "F#"
+        },
+        {
+          "posicao": 5,
+          "nota": "G"
+        },
+        {
+          "posicao": 6,
+          "nota": "G#"
+        },
+        {
+          "posicao": 7,
+          "nota": "A"
+        },
+        {
+          "posicao": 8,
+          "nota": "A#"
+        },
+        {
+          "posicao": 9,
+          "nota": "B"
+        },
+        {
+          "posicao": 10,
+          "nota": "C"
+        },
+        {
+          "posicao": 11,
+          "nota": "C#"
+        },
+        {
+          "posicao": 12,
+          "nota": "E"
+        },
+        {
+          "posicao": 13,
+          "nota": "D#"
+        },
+        {
+          "posicao": 14,
+          "nota": "E"
+        },
+        {
+          "posicao": 15,
+          "nota": "F"
+        },
+        {
+          "posicao": 16,
+          "nota": "F#"
+        },
+        {
+          "posicao": 17,
+          "nota": "G"
+        },
+        {
+          "posicao": 18,
+          "nota": "G#"
+        },
+        {
+          "posicao": 19,
+          "nota": "A"
+        },
+        {
+          "posicao": 20,
+          "nota": "A#"
+        },
+        {
+          "posicao": 21,
+          "nota": "B"
+        },
+        {
+          "posicao": 22,
+          "nota": "C"
+        },
+        {
+          "posicao": 23,
+          "nota": "C#"
+        }
+      ]
+    },
+    {
+      "corda": "G",
+      "cor": "DarkOrange",
+      "notas": [
+        {
+          "posicao": 0,
+          "nota": "G"
+        },
+        {
+          "posicao": 1,
+          "nota": "G#"
+        },
+        {
+          "posicao": 2,
+          "nota": "A"
+        },
+        {
+          "posicao": 3,
+          "nota": "A#"
+        },
+        {
+          "posicao": 4,
+          "nota": "B"
+        },
+        {
+          "posicao": 5,
+          "nota": "C"
+        },
+        {
+          "posicao": 6,
+          "nota": "C#"
+        },
+        {
+          "posicao": 7,
+          "nota": "D"
+        },
+        {
+          "posicao": 8,
+          "nota": "D#"
+        },
+        {
+          "posicao": 9,
+          "nota": "E"
+        },
+        {
+          "posicao": 10,
+          "nota": "F"
+        },
+        {
+          "posicao": 11,
+          "nota": "F#"
+        },
+        {
+          "posicao": 12,
+          "nota": "G"
+        },
+        {
+          "posicao": 13,
+          "nota": "G#"
+        },
+        {
+          "posicao": 14,
+          "nota": "A"
+        },
+        {
+          "posicao": 15,
+          "nota": "A#"
+        },
+        {
+          "posicao": 16,
+          "nota": "B"
+        },
+        {
+          "posicao": 17,
+          "nota": "C"
+        },
+        {
+          "posicao": 18,
+          "nota": "C#"
+        },
+        {
+          "posicao": 19,
+          "nota": "D"
+        },
+        {
+          "posicao": 20,
+          "nota": "D#"
+        },
+        {
+          "posicao": 21,
+          "nota": "E"
+        },
+        {
+          "posicao": 22,
+          "nota": "F"
+        },
+        {
+          "posicao": 23,
+          "nota": "F#"
+        }
+
+      ]
+    },
+    {
+      "corda": "A",
+      "cor": "Yellow",
+      "notas": [
+        {
+          "posicao": 0,
+          "nota": "A"
+        },
+        {
+          "posicao": 1,
+          "nota": "A#"
+        },
+        {
+          "posicao": 2,
+          "nota": "B"
+        },
+        {
+          "posicao": 3,
+          "nota": "C"
+        },
+        {
+          "posicao": 4,
+          "nota": "C#"
+        },
+        {
+          "posicao": 5,
+          "nota": "D"
+        },
+        {
+          "posicao": 6,
+          "nota": "D#"
+        },
+        {
+          "posicao": 7,
+          "nota": "E"
+        },
+        {
+          "posicao": 8,
+          "nota": "F"
+        },
+        {
+          "posicao": 9,
+          "nota": "F#"
+        },
+        {
+          "posicao": 10,
+          "nota": "G"
+        },
+        {
+          "posicao": 11,
+          "nota": "G#"
+        },
+        {
+          "posicao": 12,
+          "nota": "A"
+        },
+        {
+          "posicao": 13,
+          "nota": "A#"
+        },
+        {
+          "posicao": 14,
+          "nota": "B"
+        },
+        {
+          "posicao": 15,
+          "nota": "C"
+        },
+        {
+          "posicao": 16,
+          "nota": "C#"
+        },
+        {
+          "posicao": 17,
+          "nota": "D"
+        },
+        {
+          "posicao": 18,
+          "nota": "D#"
+        },
+        {
+          "posicao": 19,
+          "nota": "E"
+        },
+        {
+          "posicao": 20,
+          "nota": "F"
+        },
+        {
+          "posicao": 21,
+          "nota": "F#"
+        },
+        {
+          "posicao": 22,
+          "nota": "G"
+        },
+        {
+          "posicao": 23,
+          "nota": "G#"
+        }
+      ]
+    },
+    {
+      "corda": "E",
+      "cor": "Red",
+      "notas": [
+        {
+          "posicao": 0,
+          "nota": "E"
+        },
+                {
+          "posicao": 1,
+          "nota": "F"
+        },
+        {
+          "posicao": 2,
+          "nota": "F#"
+        },
+        {
+          "posicao": 3,
+          "nota": "G"
+        },
+        {
+          "posicao": 4,
+          "nota": "G#"
+        },
+        {
+          "posicao": 5,
+          "nota": "A"
+        },
+        {
+          "posicao": 6,
+          "nota": "A#"
+        },
+        {
+          "posicao": 7,
+          "nota": "B"
+        },
+        {
+          "posicao": 8,
+          "nota": "C"
+        },
+        {
+          "posicao": 9,
+          "nota": "C#"
+        },
+        {
+          "posicao": 10,
+          "nota": "D"
+        },
+        {
+          "posicao": 11,
+          "nota": "D#"
+        },
+        {
+          "posicao": 12,
+          "nota": "E"
+        },
+        {
+          "posicao": 13,
+          "nota": "F"
+        },
+        {
+          "posicao": 14,
+          "nota": "F#"
+        },
+        {
+          "posicao": 15,
+          "nota": "G"
+        },
+        {
+          "posicao": 16,
+          "nota": "G#"
+        },
+        {
+          "posicao": 17,
+          "nota": "A"
+        },
+        {
+          "posicao": 18,
+          "nota": "A#"
+        },
+        {
+          "posicao": 19,
+          "nota": "B"
+        },
+        {
+          "posicao": 20,
+          "nota": "C"
+        },
+        {
+          "posicao": 21,
+          "nota": "C#"
+        },
+        {
+          "posicao": 22,
+          "nota": "D"
+        },
+        {
+          "posicao": 23,
+          "nota": "D#"
+        }
+      ]
+    }
+
+  ]
+}

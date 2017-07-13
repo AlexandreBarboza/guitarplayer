@@ -1,0 +1,11 @@
+c:\users\abarboza\documents\visual studio 2017\Projects\playnotes\playnotes\bin\Debug\playnotes.exe.config
+c:\users\abarboza\documents\visual studio 2017\Projects\playnotes\playnotes\bin\Debug\playnotes.exe
+c:\users\abarboza\documents\visual studio 2017\Projects\playnotes\playnotes\bin\Debug\playnotes.pdb
+c:\users\abarboza\documents\visual studio 2017\Projects\playnotes\playnotes\obj\Debug\playnotes.csprojResolveAssemblyReference.cache
+c:\users\abarboza\documents\visual studio 2017\Projects\playnotes\playnotes\obj\Debug\playnotes.Form1.resources
+c:\users\abarboza\documents\visual studio 2017\Projects\playnotes\playnotes\obj\Debug\playnotes.Properties.Resources.resources
+c:\users\abarboza\documents\visual studio 2017\Projects\playnotes\playnotes\obj\Debug\playnotes.csproj.GenerateResource.Cache
+c:\users\abarboza\documents\visual studio 2017\Projects\playnotes\playnotes\obj\Debug\playnotes.exe
+c:\users\abarboza\documents\visual studio 2017\Projects\playnotes\playnotes\obj\Debug\playnotes.pdb
+c:\users\abarboza\documents\visual studio 2017\Projects\playnotes\playnotes\bin\Debug\Newtonsoft.Json.dll
+c:\users\abarboza\documents\visual studio 2017\Projects\playnotes\playnotes\bin\Debug\Newtonsoft.Json.xml
