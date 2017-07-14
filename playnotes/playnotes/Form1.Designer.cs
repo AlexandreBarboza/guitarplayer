@@ -64,9 +64,16 @@
             this.penta_3 = new System.Windows.Forms.RadioButton();
             this.penta_2 = new System.Windows.Forms.RadioButton();
             this.penta_1 = new System.Windows.Forms.RadioButton();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button3 = new System.Windows.Forms.Button();
+            this.cboExercicios = new System.Windows.Forms.ComboBox();
+            this.txtTempo = new System.Windows.Forms.TextBox();
+            this.button4 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.BRACO.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.PoisicaoPenta.SuspendLayout();
+            this.groupBox2.SuspendLayout();
             this.SuspendLayout();
             // 
             // BRACO
@@ -98,7 +105,7 @@
             this.BRACO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 38F));
             this.BRACO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 38F));
             this.BRACO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 38F));
-            this.BRACO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 39F));
+            this.BRACO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
             this.BRACO.Controls.Add(this.label7, 0, 6);
             this.BRACO.Controls.Add(this.label8, 1, 6);
             this.BRACO.Controls.Add(this.label9, 2, 6);
@@ -133,7 +140,7 @@
             this.BRACO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.BRACO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.BRACO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
-            this.BRACO.Size = new System.Drawing.Size(938, 218);
+            this.BRACO.Size = new System.Drawing.Size(939, 218);
             this.BRACO.TabIndex = 0;
             this.BRACO.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
@@ -441,7 +448,7 @@
             this.PoisicaoPenta.Controls.Add(this.penta_3);
             this.PoisicaoPenta.Controls.Add(this.penta_2);
             this.PoisicaoPenta.Controls.Add(this.penta_1);
-            this.PoisicaoPenta.Location = new System.Drawing.Point(244, 251);
+            this.PoisicaoPenta.Location = new System.Drawing.Point(240, 251);
             this.PoisicaoPenta.Name = "PoisicaoPenta";
             this.PoisicaoPenta.Size = new System.Drawing.Size(564, 52);
             this.PoisicaoPenta.TabIndex = 2;
@@ -539,12 +546,77 @@
             this.penta_1.Text = "Posicao 1";
             this.penta_1.UseVisualStyleBackColor = true;
             // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.button5);
+            this.groupBox2.Controls.Add(this.button4);
+            this.groupBox2.Controls.Add(this.txtTempo);
+            this.groupBox2.Controls.Add(this.button3);
+            this.groupBox2.Controls.Add(this.cboExercicios);
+            this.groupBox2.Location = new System.Drawing.Point(12, 306);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Size = new System.Drawing.Size(356, 49);
+            this.groupBox2.TabIndex = 3;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Exercícios";
+            // 
+            // button3
+            // 
+            this.button3.Location = new System.Drawing.Point(272, 20);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(75, 23);
+            this.button3.TabIndex = 1;
+            this.button3.Text = "Ver";
+            this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
+            // cboExercicios
+            // 
+            this.cboExercicios.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.Suggest;
+            this.cboExercicios.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.ListItems;
+            this.cboExercicios.FormattingEnabled = true;
+            this.cboExercicios.Location = new System.Drawing.Point(8, 20);
+            this.cboExercicios.Name = "cboExercicios";
+            this.cboExercicios.Size = new System.Drawing.Size(121, 21);
+            this.cboExercicios.TabIndex = 0;
+            // 
+            // txtTempo
+            // 
+            this.txtTempo.Location = new System.Drawing.Point(180, 20);
+            this.txtTempo.Name = "txtTempo";
+            this.txtTempo.ReadOnly = true;
+            this.txtTempo.Size = new System.Drawing.Size(49, 20);
+            this.txtTempo.TabIndex = 2;
+            this.txtTempo.Text = "1000";
+            this.txtTempo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(156, 20);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(18, 23);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "-";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(235, 20);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(18, 23);
+            this.button5.TabIndex = 4;
+            this.button5.Text = "+";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(982, 376);
+            this.ClientSize = new System.Drawing.Size(986, 376);
+            this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.PoisicaoPenta);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.BRACO);
@@ -556,6 +628,8 @@
             this.groupBox1.ResumeLayout(false);
             this.PoisicaoPenta.ResumeLayout(false);
             this.PoisicaoPenta.PerformLayout();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -599,6 +673,12 @@
         private System.Windows.Forms.RadioButton penta_3;
         private System.Windows.Forms.RadioButton penta_2;
         private System.Windows.Forms.RadioButton penta_1;
+        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.Button button3;
+        private System.Windows.Forms.ComboBox cboExercicios;
+        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.TextBox txtTempo;
     }
 }
 

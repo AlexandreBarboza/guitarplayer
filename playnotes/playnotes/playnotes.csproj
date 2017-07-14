@@ -70,6 +70,7 @@
     </Compile>
     <None Include="Acordes.json" />
     <None Include="Braco.json" />
+    <None Include="Exercicios.json" />
     <None Include="nomes_acordes.json" />
     <None Include="packages.config" />
     <None Include="Penta.json" />

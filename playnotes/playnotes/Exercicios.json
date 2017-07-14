@@ -1,0 +1,136 @@
+﻿{
+  "exercicio": [
+    {
+      "e_numero": 1,
+      "e_posicoes": [
+        {
+          "e_corda": "G",
+          "c_posicao": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "e_corda": "D",
+          "c_posicao": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "e_corda": "A",
+          "c_posicao": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "e_corda": "E",
+          "c_posicao": [
+            1,
+            2,
+            3,
+            4,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "e_corda": "A",
+          "c_posicao": [
+            4,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "e_corda": "D",
+          "c_posicao": [
+            4,
+            3,
+            2,
+            1
+          ]
+        },
+        {
+          "e_corda": "G",
+          "c_posicao": [
+            4,
+            3,
+            2,
+            1
+          ]
+        }
+
+      ]
+    },
+    {
+      "e_numero": 2,
+      "e_posicoes": [
+        {
+          "e_corda": "e",
+          "c_posicao": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "e_corda": "B",
+          "c_posicao": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "e_corda": "G",
+          "c_posicao": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "e_corda": "D",
+          "c_posicao": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "e_corda": "A",
+          "c_posicao": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "e_corda": "E",
+          "c_posicao": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+
+      ]
+    }
+  ]
+}

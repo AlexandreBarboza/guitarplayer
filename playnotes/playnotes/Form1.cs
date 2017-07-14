@@ -16,6 +16,7 @@ namespace playnotes
     {
         public acordesCLS acrds = new acordesCLS();
         public pentasCLS pntas = new pentasCLS();
+        public exerciciosCLS exerc = new exerciciosCLS();
         public Form1()
         {
             InitializeComponent();
@@ -60,7 +61,12 @@ namespace playnotes
                     string json = r.ReadToEnd();
                     pntas = JsonConvert.DeserializeObject<pentasCLS>(json);
                 }
-
+                
+                using (StreamReader r = new StreamReader(System.IO.Path.GetDirectoryName(System.Reflection.Assembly.GetExecutingAssembly().Location).Replace("bin\\Debug", "") + "Exercicios.json"))
+                {
+                    string json = r.ReadToEnd();
+                    exerc = JsonConvert.DeserializeObject<exerciciosCLS>(json);
+                }
                 foreach (Corda CRD in items.cordas)
                 {
                     foreach (Nota NTA in CRD.notas)
@@ -115,7 +121,11 @@ namespace playnotes
                 foreach (Acorde acr in acrds.acordes)
                 {
                     cboAcordes.Items.Add(acr.acorde);
-                }                
+                }
+                foreach (Exercicio exer in exerc.exercicio)
+                {
+                    cboExercicios.Items.Add("Exercício - " + exer.e_numero);
+                }
             }
             catch (Exception ex)
             {
@@ -138,6 +148,23 @@ namespace playnotes
         public class acordesCLS
         {
             public IList<Acorde> acordes { get; set; }
+        }
+
+        public class EPosico
+        {
+            public string e_corda { get; set; }
+            public IList<int> c_posicao { get; set; }
+        }
+
+        public class Exercicio
+        {
+            public int e_numero { get; set; }
+            public IList<EPosico> e_posicoes { get; set; }
+        }
+
+        public class exerciciosCLS
+        {
+            public IList<Exercicio> exercicio { get; set; }
         }
 
         public class Nota
@@ -252,6 +279,64 @@ namespace playnotes
                     }
                 }
             }
+        }
+
+        private async void button3_Click(object sender, EventArgs e)
+        {
+            try
+            {
+                if (cboExercicios.Text != "")
+                {
+                    LimparTudo();
+                    int Tempo = Convert.ToInt32(txtTempo.Text);
+                    int nroExe = Convert.ToInt32(cboExercicios.Text.Split(' ')[2]);
+                    Exercicio Exer = exerc.exercicio.FirstOrDefault(r => r.e_numero == nroExe);
+                    foreach (EPosico pos in Exer.e_posicoes)
+                    {
+                        foreach (int epos in pos.c_posicao)
+                        {
+
+                            string nm_nota = "lbl_" + pos.e_corda + "_" + epos.ToString() + "_";
+                            foreach (System.Windows.Forms.Control Notas in BRACO.Controls)
+                            {
+                                if (Notas is Label)
+                                {
+                                    Label btnNota = Notas as Label;
+                                    if (btnNota.Name.Contains(nm_nota))
+                                    {
+                                        await doExercicio(btnNota, Tempo);
+                                        //
+                                    }
+                                }
+                            }
+                        }
+                    }  
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message);
+            }
+        }
+
+        async Task doExercicio(Label btnNota, int Tempo) {
+
+            btnNota.Visible = true;
+            await Task.Delay(Tempo);
+            btnNota.Visible = false;
+        }
+        private void button4_Click(object sender, EventArgs e)
+        {
+            int Tempo = Convert.ToInt32(txtTempo.Text);
+            Tempo--;
+            txtTempo.Text = Tempo.ToString();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            int Tempo = Convert.ToInt32(txtTempo.Text);
+            Tempo++;
+            txtTempo.Text = Tempo.ToString();
         }
     }
 }
