@@ -65,15 +65,30 @@
             this.penta_2 = new System.Windows.Forms.RadioButton();
             this.penta_1 = new System.Windows.Forms.RadioButton();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.button5 = new System.Windows.Forms.Button();
+            this.button4 = new System.Windows.Forms.Button();
+            this.txtTempo = new System.Windows.Forms.TextBox();
             this.button3 = new System.Windows.Forms.Button();
             this.cboExercicios = new System.Windows.Forms.ComboBox();
-            this.txtTempo = new System.Windows.Forms.TextBox();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.button6 = new System.Windows.Forms.Button();
+            this.txtCorda_e = new System.Windows.Forms.TextBox();
+            this.txtCorda_B = new System.Windows.Forms.TextBox();
+            this.txtCorda_G = new System.Windows.Forms.TextBox();
+            this.txtCorda_D = new System.Windows.Forms.TextBox();
+            this.txtCorda_A = new System.Windows.Forms.TextBox();
+            this.txtCorda_EE = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
             this.BRACO.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.PoisicaoPenta.SuspendLayout();
             this.groupBox2.SuspendLayout();
+            this.groupBox3.SuspendLayout();
             this.SuspendLayout();
             // 
             // BRACO
@@ -105,7 +120,7 @@
             this.BRACO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 38F));
             this.BRACO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 38F));
             this.BRACO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 38F));
-            this.BRACO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 40F));
+            this.BRACO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 41F));
             this.BRACO.Controls.Add(this.label7, 0, 6);
             this.BRACO.Controls.Add(this.label8, 1, 6);
             this.BRACO.Controls.Add(this.label9, 2, 6);
@@ -140,7 +155,7 @@
             this.BRACO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.BRACO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.BRACO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
-            this.BRACO.Size = new System.Drawing.Size(939, 218);
+            this.BRACO.Size = new System.Drawing.Size(940, 218);
             this.BRACO.TabIndex = 0;
             this.BRACO.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
@@ -154,6 +169,7 @@
             this.label7.Size = new System.Drawing.Size(18, 20);
             this.label7.TabIndex = 6;
             this.label7.Text = "0";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label8
             // 
@@ -448,7 +464,7 @@
             this.PoisicaoPenta.Controls.Add(this.penta_3);
             this.PoisicaoPenta.Controls.Add(this.penta_2);
             this.PoisicaoPenta.Controls.Add(this.penta_1);
-            this.PoisicaoPenta.Location = new System.Drawing.Point(240, 251);
+            this.PoisicaoPenta.Location = new System.Drawing.Point(13, 306);
             this.PoisicaoPenta.Name = "PoisicaoPenta";
             this.PoisicaoPenta.Size = new System.Drawing.Size(564, 52);
             this.PoisicaoPenta.TabIndex = 2;
@@ -553,16 +569,46 @@
             this.groupBox2.Controls.Add(this.txtTempo);
             this.groupBox2.Controls.Add(this.button3);
             this.groupBox2.Controls.Add(this.cboExercicios);
-            this.groupBox2.Location = new System.Drawing.Point(12, 306);
+            this.groupBox2.Location = new System.Drawing.Point(235, 251);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(356, 49);
+            this.groupBox2.Size = new System.Drawing.Size(342, 49);
             this.groupBox2.TabIndex = 3;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Exercícios";
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(217, 20);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(18, 23);
+            this.button5.TabIndex = 4;
+            this.button5.Text = "+";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // button4
+            // 
+            this.button4.Location = new System.Drawing.Point(138, 20);
+            this.button4.Name = "button4";
+            this.button4.Size = new System.Drawing.Size(18, 23);
+            this.button4.TabIndex = 3;
+            this.button4.Text = "-";
+            this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // txtTempo
+            // 
+            this.txtTempo.Location = new System.Drawing.Point(162, 20);
+            this.txtTempo.Name = "txtTempo";
+            this.txtTempo.ReadOnly = true;
+            this.txtTempo.Size = new System.Drawing.Size(49, 20);
+            this.txtTempo.TabIndex = 2;
+            this.txtTempo.Text = "1000";
+            this.txtTempo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
             // button3
             // 
-            this.button3.Location = new System.Drawing.Point(272, 20);
+            this.button3.Location = new System.Drawing.Point(254, 20);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(75, 23);
             this.button3.TabIndex = 1;
@@ -580,42 +626,141 @@
             this.cboExercicios.Size = new System.Drawing.Size(121, 21);
             this.cboExercicios.TabIndex = 0;
             // 
-            // txtTempo
+            // groupBox3
             // 
-            this.txtTempo.Location = new System.Drawing.Point(180, 20);
-            this.txtTempo.Name = "txtTempo";
-            this.txtTempo.ReadOnly = true;
-            this.txtTempo.Size = new System.Drawing.Size(49, 20);
-            this.txtTempo.TabIndex = 2;
-            this.txtTempo.Text = "1000";
-            this.txtTempo.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            this.groupBox3.Controls.Add(this.label5);
+            this.groupBox3.Controls.Add(this.label6);
+            this.groupBox3.Controls.Add(this.label3);
+            this.groupBox3.Controls.Add(this.label4);
+            this.groupBox3.Controls.Add(this.label2);
+            this.groupBox3.Controls.Add(this.label1);
+            this.groupBox3.Controls.Add(this.txtCorda_EE);
+            this.groupBox3.Controls.Add(this.txtCorda_A);
+            this.groupBox3.Controls.Add(this.txtCorda_D);
+            this.groupBox3.Controls.Add(this.txtCorda_G);
+            this.groupBox3.Controls.Add(this.txtCorda_B);
+            this.groupBox3.Controls.Add(this.txtCorda_e);
+            this.groupBox3.Controls.Add(this.button6);
+            this.groupBox3.Location = new System.Drawing.Point(584, 251);
+            this.groupBox3.Name = "groupBox3";
+            this.groupBox3.Size = new System.Drawing.Size(368, 205);
+            this.groupBox3.TabIndex = 4;
+            this.groupBox3.TabStop = false;
+            this.groupBox3.Text = "Escrever";
             // 
-            // button4
+            // button6
             // 
-            this.button4.Location = new System.Drawing.Point(156, 20);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(18, 23);
-            this.button4.TabIndex = 3;
-            this.button4.Text = "-";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.button6.Location = new System.Drawing.Point(282, 175);
+            this.button6.Name = "button6";
+            this.button6.Size = new System.Drawing.Size(75, 23);
+            this.button6.TabIndex = 2;
+            this.button6.Text = "Ver";
+            this.button6.UseVisualStyleBackColor = true;
+            this.button6.Click += new System.EventHandler(this.button6_Click);
             // 
-            // button5
+            // txtCorda_e
             // 
-            this.button5.Location = new System.Drawing.Point(235, 20);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(18, 23);
-            this.button5.TabIndex = 4;
-            this.button5.Text = "+";
-            this.button5.UseVisualStyleBackColor = true;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.txtCorda_e.Location = new System.Drawing.Point(25, 20);
+            this.txtCorda_e.Name = "txtCorda_e";
+            this.txtCorda_e.Size = new System.Drawing.Size(335, 20);
+            this.txtCorda_e.TabIndex = 3;
+            // 
+            // txtCorda_B
+            // 
+            this.txtCorda_B.Location = new System.Drawing.Point(25, 46);
+            this.txtCorda_B.Name = "txtCorda_B";
+            this.txtCorda_B.Size = new System.Drawing.Size(335, 20);
+            this.txtCorda_B.TabIndex = 4;
+            // 
+            // txtCorda_G
+            // 
+            this.txtCorda_G.Location = new System.Drawing.Point(25, 71);
+            this.txtCorda_G.Name = "txtCorda_G";
+            this.txtCorda_G.Size = new System.Drawing.Size(335, 20);
+            this.txtCorda_G.TabIndex = 5;
+            // 
+            // txtCorda_D
+            // 
+            this.txtCorda_D.Location = new System.Drawing.Point(25, 97);
+            this.txtCorda_D.Name = "txtCorda_D";
+            this.txtCorda_D.Size = new System.Drawing.Size(335, 20);
+            this.txtCorda_D.TabIndex = 6;
+            // 
+            // txtCorda_A
+            // 
+            this.txtCorda_A.Location = new System.Drawing.Point(25, 123);
+            this.txtCorda_A.Name = "txtCorda_A";
+            this.txtCorda_A.Size = new System.Drawing.Size(335, 20);
+            this.txtCorda_A.TabIndex = 7;
+            // 
+            // txtCorda_EE
+            // 
+            this.txtCorda_EE.Location = new System.Drawing.Point(25, 149);
+            this.txtCorda_EE.Name = "txtCorda_EE";
+            this.txtCorda_EE.Size = new System.Drawing.Size(335, 20);
+            this.txtCorda_EE.TabIndex = 8;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(6, 22);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(13, 13);
+            this.label1.TabIndex = 9;
+            this.label1.Text = "e";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(6, 49);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(14, 13);
+            this.label2.TabIndex = 10;
+            this.label2.Text = "B";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(6, 100);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(15, 13);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "D";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(6, 73);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(15, 13);
+            this.label4.TabIndex = 11;
+            this.label4.Text = "G";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(4, 153);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(14, 13);
+            this.label5.TabIndex = 14;
+            this.label5.Text = "E";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(4, 126);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(14, 13);
+            this.label6.TabIndex = 13;
+            this.label6.Text = "A";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
-            this.ClientSize = new System.Drawing.Size(986, 376);
+            this.ClientSize = new System.Drawing.Size(986, 507);
+            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.PoisicaoPenta);
             this.Controls.Add(this.groupBox1);
@@ -630,6 +775,8 @@
             this.PoisicaoPenta.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
+            this.groupBox3.ResumeLayout(false);
+            this.groupBox3.PerformLayout();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -679,6 +826,20 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.TextBox txtTempo;
+        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.Button button6;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.TextBox txtCorda_EE;
+        private System.Windows.Forms.TextBox txtCorda_A;
+        private System.Windows.Forms.TextBox txtCorda_D;
+        private System.Windows.Forms.TextBox txtCorda_G;
+        private System.Windows.Forms.TextBox txtCorda_B;
+        private System.Windows.Forms.TextBox txtCorda_e;
     }
 }
 

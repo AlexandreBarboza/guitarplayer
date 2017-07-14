@@ -39,6 +39,76 @@ namespace playnotes
                 }
             }
         }
+        protected void button_Click(object sender, EventArgs e) {
+            Label lbl= sender as Label;
+            string[] prop = lbl.Name.Split('_');
+            switch (prop[1])
+            {
+                case "e":
+                    {
+                        txtCorda_e.Text = txtCorda_e.Text + prop[2] + "-";
+                        txtCorda_B.Text = txtCorda_B.Text + "-" + "-";
+                        txtCorda_G.Text = txtCorda_G.Text + "-" + "-";
+                        txtCorda_D.Text = txtCorda_D.Text + "-" + "-";
+                        txtCorda_A.Text = txtCorda_A.Text + "-" + "-";
+                        txtCorda_EE.Text = txtCorda_EE.Text + "-" + "-";
+                        break;
+                    }
+                case "B":
+                    {
+                        txtCorda_e.Text = txtCorda_e.Text + "-" + "-";
+                        txtCorda_B.Text = txtCorda_B.Text + prop[2] + "-";
+                        txtCorda_G.Text = txtCorda_G.Text + "-" + "-";
+                        txtCorda_D.Text = txtCorda_D.Text + "-" + "-";
+                        txtCorda_A.Text = txtCorda_A.Text + "-" + "-";
+                        txtCorda_EE.Text = txtCorda_EE.Text + "-" + "-";
+                        break;
+                    }
+                case "G":
+                    {
+                        txtCorda_e.Text = txtCorda_e.Text + "-" + "-";
+                        txtCorda_B.Text = txtCorda_B.Text + "-" + "-";
+                        txtCorda_G.Text = txtCorda_G.Text + prop[2] + "-";
+                        txtCorda_D.Text = txtCorda_D.Text + "-" + "-";
+                        txtCorda_A.Text = txtCorda_A.Text + "-" + "-";
+                        txtCorda_EE.Text = txtCorda_EE.Text + "-" + "-";
+                        break;
+                    }
+                case "D":
+                    {
+                        txtCorda_e.Text = txtCorda_e.Text + "-" + "-";
+                        txtCorda_B.Text = txtCorda_B.Text + "-" + "-";
+                        txtCorda_G.Text = txtCorda_G.Text + "-" + "-";
+                        txtCorda_D.Text = txtCorda_D.Text + prop[2] + "-";
+                        txtCorda_A.Text = txtCorda_A.Text + "-" + "-";
+                        txtCorda_EE.Text = txtCorda_EE.Text + "-" + "-";
+                        break;
+                    }
+                case "A":
+                    {
+                        txtCorda_e.Text = txtCorda_e.Text + "-";
+                        txtCorda_B.Text = txtCorda_B.Text + "-";
+                        txtCorda_G.Text = txtCorda_G.Text + "-";
+                        txtCorda_D.Text = txtCorda_D.Text + "-";
+                        txtCorda_A.Text = txtCorda_A.Text + prop[2];
+                        txtCorda_EE.Text = txtCorda_EE.Text + "-";
+                        break;
+                    }
+                case "E":
+                    {
+                        txtCorda_e.Text = txtCorda_e.Text + "-";
+                        txtCorda_B.Text = txtCorda_B.Text + "-";
+                        txtCorda_G.Text = txtCorda_G.Text + "-";
+                        txtCorda_D.Text = txtCorda_D.Text + "-";
+                        txtCorda_A.Text = txtCorda_A.Text + "-";
+                        txtCorda_EE.Text = txtCorda_EE.Text + prop[2];
+                        break;
+                    }
+                default:
+                    break;
+            }
+
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
             try
@@ -79,6 +149,7 @@ namespace playnotes
                         LBL.TextAlign = ContentAlignment.MiddleCenter;
                         LBL.Font=new Font("Microsoft Sans Serif", 12);
                         LBL.Margin = new Padding(5, 5, 0, 0);
+                        LBL.Click += new EventHandler(button_Click);
                         int rw = 0;
                         switch (CRD.corda)
                         {
@@ -337,6 +408,30 @@ namespace playnotes
             int Tempo = Convert.ToInt32(txtTempo.Text);
             Tempo++;
             txtTempo.Text = Tempo.ToString();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+            MostrarTudo();
+        }
+        private void MostrarTudo()
+        {
+            foreach (System.Windows.Forms.Control Notas in BRACO.Controls)
+            {
+                if (Notas is Label)
+                {
+                    Label btnNota = Notas as Label;
+                    if (btnNota.Name.Contains("lbl_"))
+                    {
+                        btnNota.Visible = true;
+                    }
+                }
+            }
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
