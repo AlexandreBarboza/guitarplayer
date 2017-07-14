@@ -57,13 +57,13 @@
             this.button1 = new System.Windows.Forms.Button();
             this.cboAcordes = new System.Windows.Forms.ComboBox();
             this.PoisicaoPenta = new System.Windows.Forms.GroupBox();
-            this.penta_1 = new System.Windows.Forms.RadioButton();
-            this.penta_2 = new System.Windows.Forms.RadioButton();
+            this.cboNota = new System.Windows.Forms.ComboBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.penta_5 = new System.Windows.Forms.RadioButton();
             this.penta_4 = new System.Windows.Forms.RadioButton();
             this.penta_3 = new System.Windows.Forms.RadioButton();
-            this.penta_5 = new System.Windows.Forms.RadioButton();
-            this.button2 = new System.Windows.Forms.Button();
-            this.cboNota = new System.Windows.Forms.ComboBox();
+            this.penta_2 = new System.Windows.Forms.RadioButton();
+            this.penta_1 = new System.Windows.Forms.RadioButton();
             this.BRACO.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.PoisicaoPenta.SuspendLayout();
@@ -98,7 +98,7 @@
             this.BRACO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 38F));
             this.BRACO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 38F));
             this.BRACO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 38F));
-            this.BRACO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 38F));
+            this.BRACO.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 39F));
             this.BRACO.Controls.Add(this.label7, 0, 6);
             this.BRACO.Controls.Add(this.label8, 1, 6);
             this.BRACO.Controls.Add(this.label9, 2, 6);
@@ -133,7 +133,7 @@
             this.BRACO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.BRACO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
             this.BRACO.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 30F));
-            this.BRACO.Size = new System.Drawing.Size(937, 218);
+            this.BRACO.Size = new System.Drawing.Size(938, 218);
             this.BRACO.TabIndex = 0;
             this.BRACO.Paint += new System.Windows.Forms.PaintEventHandler(this.tableLayoutPanel1_Paint);
             // 
@@ -446,72 +446,7 @@
             this.PoisicaoPenta.Size = new System.Drawing.Size(564, 52);
             this.PoisicaoPenta.TabIndex = 2;
             this.PoisicaoPenta.TabStop = false;
-            this.PoisicaoPenta.Text = "Pentatônoca Menor";
-            // 
-            // penta_1
-            // 
-            this.penta_1.AutoSize = true;
-            this.penta_1.Location = new System.Drawing.Point(7, 20);
-            this.penta_1.Name = "penta_1";
-            this.penta_1.Size = new System.Drawing.Size(72, 17);
-            this.penta_1.TabIndex = 0;
-            this.penta_1.TabStop = true;
-            this.penta_1.Text = "Posicao 1";
-            this.penta_1.UseVisualStyleBackColor = true;
-            // 
-            // penta_2
-            // 
-            this.penta_2.AutoSize = true;
-            this.penta_2.Location = new System.Drawing.Point(85, 20);
-            this.penta_2.Name = "penta_2";
-            this.penta_2.Size = new System.Drawing.Size(72, 17);
-            this.penta_2.TabIndex = 1;
-            this.penta_2.TabStop = true;
-            this.penta_2.Text = "Posicao 2";
-            this.penta_2.UseVisualStyleBackColor = true;
-            // 
-            // penta_4
-            // 
-            this.penta_4.AutoSize = true;
-            this.penta_4.Location = new System.Drawing.Point(241, 20);
-            this.penta_4.Name = "penta_4";
-            this.penta_4.Size = new System.Drawing.Size(72, 17);
-            this.penta_4.TabIndex = 3;
-            this.penta_4.TabStop = true;
-            this.penta_4.Text = "Posicao 4";
-            this.penta_4.UseVisualStyleBackColor = true;
-            // 
-            // penta_3
-            // 
-            this.penta_3.AutoSize = true;
-            this.penta_3.Location = new System.Drawing.Point(163, 20);
-            this.penta_3.Name = "penta_3";
-            this.penta_3.Size = new System.Drawing.Size(72, 17);
-            this.penta_3.TabIndex = 2;
-            this.penta_3.TabStop = true;
-            this.penta_3.Text = "Posicao 3";
-            this.penta_3.UseVisualStyleBackColor = true;
-            // 
-            // penta_5
-            // 
-            this.penta_5.AutoSize = true;
-            this.penta_5.Location = new System.Drawing.Point(319, 20);
-            this.penta_5.Name = "penta_5";
-            this.penta_5.Size = new System.Drawing.Size(72, 17);
-            this.penta_5.TabIndex = 4;
-            this.penta_5.TabStop = true;
-            this.penta_5.Text = "Posicao 5";
-            this.penta_5.UseVisualStyleBackColor = true;
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(478, 16);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 5;
-            this.button2.Text = "Ver";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.PoisicaoPenta.Text = "Pentatônica Menor";
             // 
             // cboNota
             // 
@@ -538,6 +473,71 @@
             this.cboNota.Name = "cboNota";
             this.cboNota.Size = new System.Drawing.Size(58, 21);
             this.cboNota.TabIndex = 6;
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(478, 16);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 5;
+            this.button2.Text = "Ver";
+            this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // penta_5
+            // 
+            this.penta_5.AutoSize = true;
+            this.penta_5.Location = new System.Drawing.Point(319, 20);
+            this.penta_5.Name = "penta_5";
+            this.penta_5.Size = new System.Drawing.Size(72, 17);
+            this.penta_5.TabIndex = 4;
+            this.penta_5.TabStop = true;
+            this.penta_5.Text = "Posicao 5";
+            this.penta_5.UseVisualStyleBackColor = true;
+            // 
+            // penta_4
+            // 
+            this.penta_4.AutoSize = true;
+            this.penta_4.Location = new System.Drawing.Point(241, 20);
+            this.penta_4.Name = "penta_4";
+            this.penta_4.Size = new System.Drawing.Size(72, 17);
+            this.penta_4.TabIndex = 3;
+            this.penta_4.TabStop = true;
+            this.penta_4.Text = "Posicao 4";
+            this.penta_4.UseVisualStyleBackColor = true;
+            // 
+            // penta_3
+            // 
+            this.penta_3.AutoSize = true;
+            this.penta_3.Location = new System.Drawing.Point(163, 20);
+            this.penta_3.Name = "penta_3";
+            this.penta_3.Size = new System.Drawing.Size(72, 17);
+            this.penta_3.TabIndex = 2;
+            this.penta_3.TabStop = true;
+            this.penta_3.Text = "Posicao 3";
+            this.penta_3.UseVisualStyleBackColor = true;
+            // 
+            // penta_2
+            // 
+            this.penta_2.AutoSize = true;
+            this.penta_2.Location = new System.Drawing.Point(85, 20);
+            this.penta_2.Name = "penta_2";
+            this.penta_2.Size = new System.Drawing.Size(72, 17);
+            this.penta_2.TabIndex = 1;
+            this.penta_2.TabStop = true;
+            this.penta_2.Text = "Posicao 2";
+            this.penta_2.UseVisualStyleBackColor = true;
+            // 
+            // penta_1
+            // 
+            this.penta_1.AutoSize = true;
+            this.penta_1.Location = new System.Drawing.Point(7, 20);
+            this.penta_1.Name = "penta_1";
+            this.penta_1.Size = new System.Drawing.Size(72, 17);
+            this.penta_1.TabIndex = 0;
+            this.penta_1.TabStop = true;
+            this.penta_1.Text = "Posicao 1";
+            this.penta_1.UseVisualStyleBackColor = true;
             // 
             // Form1
             // 
