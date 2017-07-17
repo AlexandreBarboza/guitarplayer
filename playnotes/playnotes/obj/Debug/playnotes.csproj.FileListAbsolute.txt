@@ -13,3 +13,14 @@ C:\prj\guitarplay\playnotes\playnotes\obj\Debug\playnotes.csprojResolveAssemblyR
 C:\prj\guitarplay\playnotes\playnotes\obj\Debug\playnotes.Form1.resources
 C:\prj\guitarplay\playnotes\playnotes\obj\Debug\playnotes.Properties.Resources.resources
 C:\prj\guitarplay\playnotes\playnotes\obj\Debug\playnotes.csproj.GenerateResource.Cache
+C:\Users\alexandre\Source\Repos\guitarplayer\playnotes\playnotes\bin\Debug\playnotes.exe.config
+C:\Users\alexandre\Source\Repos\guitarplayer\playnotes\playnotes\bin\Debug\playnotes.exe
+C:\Users\alexandre\Source\Repos\guitarplayer\playnotes\playnotes\bin\Debug\playnotes.pdb
+C:\Users\alexandre\Source\Repos\guitarplayer\playnotes\playnotes\bin\Debug\Newtonsoft.Json.dll
+C:\Users\alexandre\Source\Repos\guitarplayer\playnotes\playnotes\bin\Debug\Newtonsoft.Json.xml
+C:\Users\alexandre\Source\Repos\guitarplayer\playnotes\playnotes\obj\Debug\playnotes.csprojResolveAssemblyReference.cache
+C:\Users\alexandre\Source\Repos\guitarplayer\playnotes\playnotes\obj\Debug\playnotes.executarDLL.resources
+C:\Users\alexandre\Source\Repos\guitarplayer\playnotes\playnotes\obj\Debug\playnotes.Properties.Resources.resources
+C:\Users\alexandre\Source\Repos\guitarplayer\playnotes\playnotes\obj\Debug\playnotes.csproj.GenerateResource.Cache
+C:\Users\alexandre\Source\Repos\guitarplayer\playnotes\playnotes\obj\Debug\playnotes.exe
+C:\Users\alexandre\Source\Repos\guitarplayer\playnotes\playnotes\obj\Debug\playnotes.pdb
